@@ -313,5 +313,6 @@ header {
   .bar-title {
     color: black;
     font-weight: 100;
+    font-size: large;
   }
   /* end scroll wheel */
