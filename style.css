@@ -182,6 +182,7 @@ header {
     font-style: italic;
     color: var(--main-red);
   }
+  /* end welcome section */
   
   /* Projects section */
   
@@ -275,8 +276,10 @@ header {
     transform: translateX(0);
     transition: transform 0.3s ease-out;
   }
+
+  /* end project section */
   
-/* scroll indicator css */
+/* begin scroll indicator css */
   .header {
     position: fixed;
     top: 0;
@@ -311,3 +314,4 @@ header {
     color: black;
     font-weight: 100;
   }
+  /* end scroll wheel */
