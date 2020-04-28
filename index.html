@@ -1,24 +1,48 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <title>Home</title>
 
         <link rel="stylesheet" href="style.css" />
-        <script rel="script" href="script.js"></script>
-        <link rel="icon" href="icon.png" />
+        <script src = "script.js" ></script>
+        <link rel="icon" href="icon.png"/>
 
         
     </head>
     <body>
-        <header>
-            <canvas id=c></canvas>
-            <h1 class="blazingYellow">Welcome to danielrotta.com!</h1>
-        </header>
-        <main>
-            <h2><a href="/magnuscarlsen/index.html">Tribute Page</a></h2>
-        </main>
-        <footer>
-        </footer>
+      <!-- scroll bar -->
+      <div class="header">
+        <h2>Scroll Indicator</h2>
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>  
+      </div>
+      <!-- end scroll bar -->
+      <section id="welcome-section" class="welcome-section">
+        <h1>Daniel Rotta</h1>
+        <p>Your Next Software Engineer</p>
+      </section>
+      
+      <section id="projects" class="projects-section">
+        <h2 class="projects-section-header">Portfolio</h2>
+      
+        <div class="projects-grid">
+          <a
+            href="/magnuscarlsen/index.html"
+            target="_blank"
+            class="project project-tile"
+          >
+            <img
+              class="project-image"
+              src=""
+              alt="project"
+            />
+            <p class="project-title">
+              <span class="code">&lt;</span>
+            Tribute Page
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+      </section>
     </body>
 </html>
