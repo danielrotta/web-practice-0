@@ -378,3 +378,8 @@ header {
     margin: 50px auto 0 auto;
     width: 80%;
   }
+
+  .bar-title {
+    color: black;
+    font-weight: 100;
+  }
